@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Right Resume</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap" media="print" onload="this.media='all'"/>
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap"/>
+    </noscript>
+    <link href="css/font-awesome/css/all.min.css?ver=1.2.0" rel="stylesheet">
+    <link href="css/bootstrap.min.css?ver=1.2.0" rel="stylesheet">
+    <link href="css/aos.css?ver=1.2.0" rel="stylesheet">
+    <link href="css/main.css?ver=1.2.0" rel="stylesheet">
+    <noscript>
+      <style type="text/css">
+        [data-aos] {
+            opacity: 1 !important;
+            transform: translate(0) scale(1) !important;
+        }
+      </style>
+    </noscript>
+   
+    <header class="d-print-none" style="display: flex;flex-direction: row-reverse;justify-content: center;">
+      <nav class="navbar navbar-light bg-light" style="position: fixed !important;width: 100% !important;z-index: 1000 !important;">
+          <div class="container" style="display: flex;align-items: baseline;justify-content: space-between;">
+              <div class="nav-button">
+                  <button class="btn btn-primary" style="justify-content: flex-start" id="navToggle">=</button>
+                  <ul class="nav-list" id="navList" style="min-width: 172px;">
+                      <li class="n"><a class="nav-link alink" href="#about"><button class="na" type="button">About Me</button></a></li>
+                      <li class="n"><a class="nav-link alink" href="#skill"><button class="na" type="button">Skills</button></a></li>
+                      <li class="n"><a class="nav-link alink" href="#work"><button class="na" type="button">Work Experience</button></a></li>
+                      <li class="n"><a class="nav-link alink" href="#edu"><button class="na" type="button">Education</button></a></li>
+                      <li class="n"><a class="nav-link alink" href="#mp"><button class="na" type="button">Mini Project</button></a></li>
+                      <li class="n"><a class="nav-link alink" href="#qualification"><button class="na" type="button">Qualification</button></a></li>
+                      <li class="n"><a class="nav-link alink" href="#reference"><button class="na" type="button">Reference</button></a></li>
+                      <li class="n"><a class="nav-link alink" href="#contact"><button class="na" type="button">Contact</button></a></li>
+                  </ul>
+              </div>
+              <div style="margin-left: auto;"> <!-- This will push the button to the right -->
+                  <a href="#" class="logout-button" onclick="logout(); return false;" style="padding: 10px; background-color: #e74c3c; color: white; border-radius: 5px; text-decoration: none;">Logout</a>
+              </div>
+          </div>
+      </nav>
+  </header>
+  
+    
+  </head>
+  <body id="top" class="container">
+    <header class="d-print-none" style="padding-top: 3rem;">
+      <div class="container text-center text-lg-left">
+        <div class="py-3 clearfix">
+          <div class="site-nav">
+           
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="page-content" style="padding-top: 0rem;">
+      <div class="container">
+<div class="cover shadow-lg bg-white con">
+  <div class="cover-bg p-3 p-lg-4 text-white">
+    <div class="row">
+      <div class="col-lg-4 col-md-5">
+        <div style="display: flex;justify-content: center;"><img src="images/profile.jpg" width="200" height="270"/></div>
+      </div>
+      <div class="col-lg-8 col-md-7 text-center text-md-start">
+        <h2 class="h1 mt-2" data-aos="fade-left" data-aos-delay="0">Dennis Lim Wei Yao</h2>
+        <p data-aos="fade-left" data-aos-delay="100">IT PROGRAMMING INTERNSHIP</p>
+        <nav role="navigation">
+          <ul class="efg nav justify-content-center">
+            <li class="nav-item facebook-container">
+                <a class="abc facebook-link" href="https://www.facebook.com/share/b5GJUXfqZbM6F7P7/?mibextid=qi2Omg" target="_blank" title="Facebook">
+                    <i class="fab fa-facebook"></i>
+                    <span class="menu-title sr-only">Facebook</span>
+                </a>
+            </li>
+            <li class="nav-item instagram-container">
+                <a class="abc instagram-link" href="https://www.instagram.com/_weiyao_____?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" title="Instagram">
+                    <i class="fab fa-instagram"></i>
+                    <span class="menu-title sr-only">Instagram</span>
+                </a>
+            </li>
+            <li class="nav-item github-container">
+                <a class="abc github-link" href="https://github.com/Gg040805" target="_blank" title="GitHub">
+                    <i class="fab fa-github"></i>
+                    <span class="menu-title sr-only">GitHub</span>
+                </a>
+            </li>
+            <li class="nav-item whatsapp-container">
+                <a class="abc whatsapp-link" href="https://wa.me/+601135514055" target="_blank" title="WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                    <span class="menu-title sr-only">WhatsApp</span>
+                </a>
+            </li>
+            <li class="nav-item email-container">
+                <a class="abc email-link" href="mailto:dennis1204205@gmail.com" target="_blank" title="Email">
+                    <i class="fas fa-envelope"></i> 
+                    <span class="menu-title sr-only">Email</span>
+                </a>
+            </li>
+        </ul>
+        
+        <div class="resume-button-container"></div>
+          <a href="images/res.pdf" target="_blank" class="btn btn-resume">View My Resume</a>
+      </div>
+        </div>
+        
+
+        </nav>
+      </div>
+    </div>
+  </div>
+  <div class="about-section pt-4 px-3 px-lg-4 mt-1">
+    <div class="row ">
+      <div class="col-md-6 ">
+        <h2 id="about"  class="h3 mb-3">About Me</h2>
+        <p>I’m seeking a Programming Internship from May 2025 to June 2025, where I can apply my skills in IT Software while learning new technologies. I’m eager to grow through hands-on experience and contribute to a company’s success by tackling challenges and driving innovation.</p>
+      </div>
+      <div class="col-md-5 offset-md-1 container">
+        <div class="row mt-2">
+          <div class="col-sm-4">
+            <div class="pb-1">Age</div>
+          </div>
+          <div class="col-sm-8">
+            <div class="pb-1 text-secondary">19</div>
+          </div>
+          <div class="col-sm-4">
+            <div class="pb-1">Email</div>
+          </div>
+          <div class="col-sm-8">
+            <div class="pb-1 text-secondary">dennis12042@gmail.com</div>
+          </div>
+          <div class="col-sm-4">
+            <div class="pb-1">Phone</div>
+          </div>
+          <div class="col-sm-8">
+            <div class="pb-1 text-secondary">+60 1135514055</div>
+          </div>
+          <div class="col-sm-4">
+            <div class="pb-1">Address</div>
+          </div>
+          <div class="col-sm-8">
+            <div class="pb-1 text-secondary">Block 1062 Tingkat 20 No 38, <br>
+              Taman Hijau 
+              Paya Terubong <br>
+              11060 Ayer Itam <br>
+              Pulau Pinang</div>
+          </div>
+          <div class="pb-1 text-secondary">Website</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr class="d-print-none"/>
+  <div class="skills-section px-3 px-lg-4">
+    <h2 id="skill" class="h3 mb-3">Professional Skills</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="mb-2"><span>HTML</span>
+          <div class="progress my-1">
+            <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="100" data-aos-anchor=".skills-section" style="width: 70%; position: relative;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+              <span style="position: absolute; right: 10px; color: white; font-weight: bold;">70%</span>
+            </div>
+          </div>
+        </div>
+        <div class="mb-2"><span>CSS</span>
+          <div class="progress my-1">
+            <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="200" data-aos-anchor=".skills-section" style="width: 45%; position: relative;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+              <span style="position: absolute; right: 10px; color: white; font-weight: bold;">45%</span>
+            </div>
+          </div>
+        </div>
+        <div class="mb-2"><span>JavaScript</span>
+          <div class="progress my-1">
+            <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="300" data-aos-anchor=".skills-section" style="width: 35%; position: relative;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+              <span style="position: absolute; right: 10px; color: white; font-weight: bold;">35%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-6">
+        <div class="mb-2"><span>MySql</span>
+          <div class="progress my-1">
+            <div class="progress-bar bg-success" role="progressbar" data-aos="zoom-in-right" data-aos-delay="400" data-aos-anchor=".skills-section" style="width: 45%; position: relative;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+              <span style="position: absolute; right: 10px; color: white; font-weight: bold;">45%</span>
+            </div>
+          </div>
+        </div>
+        <div class="mb-2"><span>PHP</span>
+          <div class="progress my-1">
+            <div class="progress-bar bg-success" role="progressbar" data-aos="zoom-in-right" data-aos-delay="500" data-aos-anchor=".skills-section" style="width: 45%; position: relative;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+              <span style="position: absolute; right: 10px; color: white; font-weight: bold;">45%</span>
+            </div>
+          </div>
+        </div>
+        <div class="mb-2"><span>Laravel</span>
+          <div class="progress my-1">
+            <div class="progress-bar bg-success" role="progressbar" data-aos="zoom-in-right" data-aos-delay="600" data-aos-anchor=".skills-section" style="width: 50%; position: relative;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+              <span style="position: absolute; right: 10px; color: white; font-weight: bold;">50%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  <hr class="d-print-none"/>
+  <div class="work-experience-section px-3 px-lg-4">
+    <h2 id="work" class="h3 mb-4">Work Experience</h2>
+    <div class="timeline">
+      <div class="timeline-card timeline-card-primary card shadow-sm">
+        <div class="card-body">
+          <div class="h5 mb-1">Promoter <span class="text-muted h6">Mydin Mohamed Holdings Berhad</span></div>
+          <div>April 2021 - July 2021</div>
+          <div class="text-muted text-small mb-2"></div>
+          <div>I managed group photography and promotional boards to enhance event visibility while coordinating logistics and supporting smooth operations, including setup, vendor coordination, and staff assistance. Additionally, I gathered feedback to improve future promotional strategies.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr class="d-print-none"/>
+  <div class="page-break"></div>
+  <div class="education-section px-3 px-lg-4 pb-4">
+    <h2 id="edu" class="h3 mb-4">Education</h2>
+    <div class="timeline">
+      <div class="timeline-card timeline-card-success card shadow-sm">
+        <div class="card-body">
+          <div class="h5 mb-1">Kolej Synergy <span class="text-muted h6">-Present</span></div>
+          <div class="text-muted text-small mb-2">2023 - 2025</div>
+          <div>Courses application development</div>
+        </div>
+      </div>
+    </div>
+    <div class="timeline">
+      <div class="timeline-card timeline-card-success card shadow-sm">
+        <div class="card-body">
+          <div class="h5 mb-1">SMK Chung Hwa Secondary School <span class="text-muted h6">-2018-2023</span></div>
+          <div class="text-muted text-small mb-2">2018 - 2023</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr class="d-print-none">
+  <div id="mini-projects" class="mini-projects-gallery">
+    <h2 class="h3 mb-4">Mini Projects</h2><span>Pls click on the blue color word link</span>
+    
+    <div class="mini-projects-items">
+      <div class="mini-project-card">
+        <a href="#" target="_blank">
+          <div class="mini-project-info">
+            <a href=""><h3>Calculator</h3></a>
+          </div>
+        </a>
+        <p>Normal Calculator</p>
+      </div>
+      <div class="mini-project-card">
+        <a href="pokemon_api.html" target="_blank">
+          <div class="mini-project-info">
+            <h3>Bmi Calculator  </h3>
+          </div>
+        </a>
+        <p>Use for body mass index calculation method</p>
+      </div>
+    </div>
+    <div class="mini-projects-items">
+      <div class="mini-project-card">
+        <a href="#" target="_blank">
+          <div class="mini-project-info">
+            <a href=""><h3>Api Pokemon</h3></a>
+          </div>
+        </a>
+        <p>Use for fetch pokemon dex data</p>
+      </div>
+      <div class="mini-project-card">
+        <a href="pokemon_api.html" target="_blank">
+          <div class="mini-project-info">
+            <h3>Calendar</h3>
+          </div>
+        </a>
+        <p>Calendar with Malaysia public holiday</p>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+</div>
+  <hr class="d-print-none">
+  <div id="qualification" class="gallery">
+    <h2 class="h3 mb-4">Qualifications</h2>
+    <div class="gallery-items">
+        <a href="photo1.html" target="_blank">
+            <img src="images/grl.jpeg" alt="Photo 1">
+        </a>
+        <a href="photo2.html" target="_blank">
+            <img src="images/hdrp.jpeg" alt="Photo 2">
+        </a>
+    </div>
+</div>
+
+  <hr class="d-print-none"/>
+  <div class="reference-section px-3 px-lg-4 pb-4" id="reference">
+    <h2 id="reference" class="h3 mb-4">References</h2>
+    <div class="timeline">
+      <div class="timeline-card timeline-card-success card shadow-sm">
+        <div class="card-body">
+          <div class="h5 mb-1">Name: Mr Ng Chuen Chuen <br><span class="text-muted h6">Position:Head of IT Department</span><br><span class="text-muted h6">Company:Kolej Synergy</span><br><span class="text-muted h6">Phone number: 012-4346832</span><br><span class="text-muted h6">Email:c2@synergy-college.com</span</div>
+          
+        </div>
+      </div>
+      <div>
+  <hr class="d-print-none"/>
+  <div class="contant-section px-3 px-lg-4 pb-4" id="contact">
+    <h2 class="h3 text mb-3">Contact me for more information</h2>
+    <div class="row">
+      <div class="col-md-7 d-print-none">
+        <div class="my-2"><form action="https://formspree.io/your@email.com"
+    method="POST">
+</form>
+      <div class="col">
+        <div class="mt-2">
+          <h3 class="h6">Address</h3>
+          <div class="pb-2 text-secondary">Block 1062 Tingkat 20 No 38,<br>
+            Taman Hijau <br>
+            Paya Terubong <br>
+            11060 Ayer Itam <br>
+            Pulau Pinang</div>
+          <h3 class="h6">Phone</h3>
+          <div class="pb-2 text-secondary">+60 1135514055</div>
+          <h3 class="h6">Email</h3>
+          <div class="pb-2 text-secondary">dennis1204205@gmail.com</div>
+        </div>
+      </div>
+    </div>
+      <div class="col d-none d-print-block">
+        <div class="mt-2">
+          <div>
+            <div class="mb-2">
+              <div class="text-dark"><i class="fab fa-twitter mr-1"></i><span>https://twitter.com/templateflip</span>
+              </div>
+            </div>
+            <div class="mb-2">
+              <div class="text-dark"><i class="fab fa-facebook mr-1"></i><span>https://www.facebook.com/templateflip</span>
+              </div>
+            </div>
+            <div class="mb-2">
+              <div class="text-dark"><i class="fab fa-instagram mr-1"></i><span>https://www.instagram.com/templateflip</span>
+              </div>
+            </div>
+            <div class="mb-2">
+              <div class="text-dark"><i class="fab fa-github mr-1"></i><span>https://github.com/templateflip</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div></div>
+    </div>
+    <footer class="pt-4 pb-4 text-muted text-center d-print-none">
+      <div class="container">
+        <div class="my-3">
+          
+        </div>
+        <div class="text-small">
+          <div class="mb-1">&copy; Right Resume. All rights reserved.</div>
+          <div>Design - <a href="https://templateflip.com/" target="_blank">Dennis Lim Wei Yao</a></div>
+        </div>
+      </div>
+    </footer>
+    <script src="scripts/bootstrap.bundle.min.js?ver=1.2.0"></script>
+    <script src="scripts/aos.js?ver=1.2.0"></script>
+    <script src="scripts/main.js?ver=1.2.0"></script>
+  </body>
+</html>
+<style>
+/* Adjusting the navigation bar */
+html{
+  scroll-padding-top: 100px;
+}
+.nav {
+  display: flex;
+  justify-content: center; /* Center all items horizontally */
+  background-color: #ffffff; /* White background */
+  padding: 5px 0; /* Adjust padding as needed */
+  list-style-type: none; /* Remove bullets from the list */
+  margin: 0;
+  border-radius: 5px; /* Optional: rounding the corners */
+}
+
+.nav a {
+  color: #000000; /* Black text for links */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.nav-item {
+  margin: 0 10px; /* Space between each nav item */
+}
+
+.nav-link {
+  color: #f0f0f0; /* Light text color */
+  font-size: 14px; /* Font size for compact text */
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 8px; /* Padding for clickable area */
+  transition: color 0.3s ease;
+}
+
+/* Hover and focus effects for the nav links */
+
+.nav-link:focus {
+  color: #ffffff; /* Yellow highlight on hover */
+}
+
+/* Ensure the nav stays aligned in a straight row on smaller screens */
+@media (max-width: 768px) {
+  .nav {
+    flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+  }
+  .nav-item {
+    margin: px 0; /* Reduced space between items when stacked */
+    
+  }
+}
+.nav-item {
+    margin: 0 10px; /* Adjust this value to reduce spacing */
+}
+
+.nav-link {
+    padding: 5px 10px; /* Adjust padding to fine-tune spacing */
+    font-size: 16px; /* You can also adjust the font size if needed */
+}
+.gallery {
+    text-align: center; /* Center the heading and the gallery items */
+    padding: 20px; /* Padding around the gallery */
+    background-color: #fff; /* White background for the gallery */
+    border-radius: 8px; /* Slight rounding of the corners */
+}
+
+.gallery-items {
+    display: flex;
+    justify-content: center; /* Center the items horizontally */
+    gap: 15px; /* Space between images */
+    flex-wrap: wrap; /* Allow items to wrap onto new lines */
+}
+
+.gallery a {
+    width: 200px; /* Fixed width for each image link */
+    height: 150px; /* Fixed height for each image link */
+    overflow: hidden; /* Hides any overflow content */
+    display: flex; /* Use flexbox for image centering */
+    align-items: center; /* Center the image vertically */
+    justify-content: center; /* Center the image horizontally */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow effect on images */
+    border-radius: 8px; /* Slight rounding of the corners */
+    transition: transform 0.2s; /* Smooth zoom effect on hover */
+}
+
+.gallery img {
+    width: 100%; /* Make images fill their container */
+    height: 100%; /* Make images fill their container */
+    object-fit: cover; /* Ensures images cover the area */
+}
+
+.gallery a:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+.nav-button {
+    position: relative;
+}
+
+.nav-list {
+    display: none; /* Initially hide the nav list */
+    position: absolute;
+    background-color: white; /* Background color for dropdown */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 10px; /* Space between button and dropdown */
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+.nav-item {
+    margin: 0; /* Reset margin */
+}
+
+.nav-item a {
+    display: block; /* Make the links block elements */
+    padding: 10px 20px; /* Padding for links */
+    text-decoration: none; /* Remove underline */
+    color: black; /* Text color */
+}
+
+.nav-item a:hover {
+    background-color: #f1f1f1; /* Change background color on hover */
+}
+.resume-button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style for the resume button */
+.btn-resume {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-resume:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+.efg {
+    display: flex; /* Make the list horizontal */
+    justify-content: center; /* Center the list horizontally */
+    gap: 20px; /* Add space between the items */
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+}
+.abc {
+    text-decoration: none; /* Remove underline from links */
+    font-size: 24px; /* Increase icon size */
+    transition: transform 0.3s; /* Add a transition effect */
+    color: #000; /* Set default icon color */
+}
+
+.abc:hover {
+    transform: scale(1.2); /* Scale the icon on hover */
+}
+
+/* Optional: If you want the icons to be styled as round buttons, you can add this */
+.facebook-container, .instagram-container, .whatsapp-container, .email-container {
+    width: 50px; /* Set a fixed width */
+    height: 50px; /* Set a fixed height */
+    border-radius: 50%; /* Make it round */
+    background-color: rgba(255, 255, 255, 0.8); /* Light background */
+    display: flex; /* Use flex to center the icons */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    transition: background-color 0.3s; /* Transition for background color */
+}
+
+.facebook-container:hover, 
+.instagram-container:hover, 
+.whatsapp-container:hover, 
+.email-container:hover {
+    background-color: rgba(255, 255, 255, 1); /* Change background color on hover */
+}
+
+.efg {
+    opacity: 1; /* Keep the icons visible */
+}
+
+.n{
+  padding: 2px;
+}
+
+.alink{
+  color: rgb(92, 92, 90);
+}
+.na{
+  border: none;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0);
+}
+.na:hover{
+  background-color: #4a89dc;
+  color: white;
+}
+/* Container styling for the mini projects gallery */
+.mini-projects-gallery {
+  margin: 40px 0;
+}
+
+.mini-projects-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.mini-project-card {
+  width: calc(50% - 20px); /* Two cards per row */
+  margin-bottom: 30px;
+  background-color: #f8f9fa; /* Light background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  border-radius: 10px; /* Rounded corners */
+  transition: transform 0.3s ease; /* Smooth hover effect */
+  text-decoration: none; /* Remove underline for links */
+  color: inherit; /* Inherit text color */
+  padding: 15px; /* Add padding for content */
+}
+
+/* Float-out animation */
+@keyframes floatOut {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px); /* Move up slightly */
+  }
+  100% {
+    transform: translateY(0); /* Return to original position */
+  }
+}
+
+.mini-project-card:hover {
+  animation: floatOut 0.5s ease forwards; /* Apply float-out animation */
+}
+
+/* Remove specific styling from h3 */
+.mini-project-info h3 {
+  margin: 0; /* Remove margin */
+  font-size: inherit; /* Inherit font size */
+}
+
+.mini-project-info p {
+  font-size: 1rem; /* Paragraph size */
+  color: #666; /* Text color */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .mini-project-card {
+    width: 100%; /* Full width for small screens */
+  }
+}
+.logout-button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #e74c3c;
+
+        text-align: center;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+
+    .logout-button:hover {
+        background-color: #c0392b;
+    }
+
+
+
+</style>
+<script>
+   function logout() {
+            // Perform any logout actions if needed (like clearing session data)
+            alert("You have logged out.");
+            
+            // Redirect to the login page
+            window.location.href = "login.html"; // Change to your actual login page
+        }
+// Handle navigation toggle
+document.getElementById("navToggle").addEventListener("click", function() {
+    const navList = document.getElementById("navList");
+    // Toggle the display property
+    if (navList.style.display === "block") {
+        navList.style.display = "none"; // Hide the menu
+    } else {
+        navList.style.display = "block"; // Show the menu
+    }
+});
+
+// Optional: Hide the menu when clicking outside
+document.addEventListener("click", function(event) {
+    const navList = document.getElementById("navList");
+    const navButton = document.getElementById("navToggle");
+    
+    if (!navButton.contains(event.target) && !navList.contains(event.target)) {
+        navList.style.display = "none"; // Hide the menu if clicked outside
+    }
+});
+
+// Auto-close the menu when a link is clicked
+document.querySelectorAll('#navList .nav-link').forEach(function(link) {
+    link.addEventListener("click", function() {
+        document.getElementById("navList").style.display = "none"; // Hide the menu
+    });
+});
+
+
+</script>

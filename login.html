@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>Login</title>
+    <style>
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #87CEEB; /* Sky blue background */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+
+
+        .login-container {
+            background: #fff;
+            padding: 40px 30px; /* Increased padding for a more spacious look */
+            border-radius: 10px; /* Rounded corners for the container */
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Deeper shadow for depth */
+            max-width: 400px; /* Set a max-width for the container */
+            width: 100%; /* Allow full width up to the max-width */
+            text-align: center; /* Centered text */
+        }
+
+        h2 {
+            margin-bottom: 20px; /* Space below the heading */
+            color: #333; /* Darker color for better contrast */
+            font-size: 24px; /* Increased font size for visibility */
+        }
+
+        .input-group {
+            margin-bottom: 20px; /* Increased space between input groups */
+        }
+
+        .input-group input {
+            width: 100%;
+            padding: 12px; /* Increased padding for comfort */
+            border: 1px solid #ccc;
+            border-radius: 5px; /* More subtle rounding */
+            font-size: 16px; /* Font size for readability */
+            transition: border-color 0.3s; /* Transition for border color */
+        }
+
+        .input-group input:focus {
+            border-color: #6a11cb; /* Highlight border on focus */
+            outline: none; /* Remove default outline */
+        }
+
+        .btn {
+            padding: 12px 20px; /* Increased button padding */
+            background-color: #6a11cb; /* Primary color */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s, transform 0.2s; /* Added transform for hover effect */
+        }
+
+        .btn:hover {
+            background-color: #2575fc; /* Darker blue on hover */
+            transform: translateY(-2px); /* Slight lift effect on hover */
+        }
+
+        #message {
+            margin-top: 15px; /* Space above message */
+            font-size: 14px; /* Font size for message */
+        }
+    </style>
+</head>
+<body>
+
+<div class="login-container">
+    <h2>Login</h2>
+    <div class="input-group">
+        <input type="text" id="username" placeholder="Username" required>
+    </div>
+    <div class="input-group">
+        <input type="password" id="password" placeholder="Password" required>
+    </div>
+    <button class="btn" onclick="login()">Login</button>
+    <p id="message"></p>
+</div>
+
+<script>
+    function login() {
+        const username = document.getElementById('username').value;
+        const password = document.getElementById('password').value;
+        const messageElement = document.getElementById('message');
+
+        // Check if the username and password match
+        if (username === 'guest' && password === '1316') {
+            messageElement.textContent = 'Login successful!';
+            messageElement.style.color = 'green';
+
+            // Redirect to index.html after a short delay
+            setTimeout(() => {
+                window.location.href = 'index.html';
+            }, 1000); // 1 second delay
+        } else {
+            messageElement.textContent = 'Invalid username or password.';
+            messageElement.style.color = 'red';
+        }
+    }
+</script>
+
+</body>
+</html>

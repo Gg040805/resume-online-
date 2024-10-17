@@ -1,0 +1,43 @@
+<div class="image-container" >
+    <img src="images/1.jpg" alt="">
+    <img src="images/2.jpg" alt="">
+    <img src="images/3.jpg" alt="">
+    
+</div>
+<div class="image-container" >
+    <img src="images/4.jpg" alt="">
+    <img src="images/5.jpg" alt="">
+    
+</div>
+<style>
+.image-container {
+    overflow: hidden;
+    height: 75vh; /* Set height to 75% of the viewport height */
+    width: 100%; /* Full-width container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.image-container img {
+    opacity: 0; /* Initially hidden */
+    transform: translateY(100px); /* Start 100px below its normal position */
+    animation: floatUp 1.5s ease-out forwards; /* Apply the animation */
+    height: 65%;
+    margin: 0 10px; /* Optional: Adjust spacing between images */
+}
+
+/* Keyframes for float-up animation */
+@keyframes floatUp {
+    0% {
+        opacity: 0;
+        transform: translateY(100px); /* Start from 100px below */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); /* End at normal position */
+    }
+}
+
+</style>
